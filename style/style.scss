@@ -237,9 +237,11 @@ img {
       .home__social-icon {
         font-size: 1.25rem;
         color: $first-color;
+        transition: all 0.2s ease;
 
         &:hover {
           color: $first-color-alt;
+          transform: scale(1.2);
         }
       }
     }
@@ -314,6 +316,7 @@ img {
 
   &:hover {
     background-color: $first-color-alt;
+    transform: scale(1.1);
   }
 }
 
@@ -332,7 +335,7 @@ img {
 .about__img {
   width: 200px;
   border-radius: 0.5rem;
-  justify-content: center;
+  justify-self: center;
   align-self: center;
 }
 
