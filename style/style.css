@@ -13,15 +13,15 @@ body {
   margin: 0 0 3rem 0;
   font-family: "Poppins", "Noto Sans TC", sans-serif;
   font-size: 0.938rem;
-  background-color: hsl(200deg, 60%, 99%);
-  color: hsl(200deg, 8%, 45%);
+  background-color: hsl(200, 60%, 99%);
+  color: hsl(200, 8%, 45%);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: hsl(200deg, 8%, 15%);
+  color: hsl(200, 8%, 15%);
   font-weight: 600;
 }
 
@@ -74,7 +74,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background-color: hsl(200deg, 60%, 99%);
+  background-color: hsl(200, 60%, 99%);
 }
 
 .nav {
@@ -87,12 +87,12 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: hsl(200deg, 8%, 15%);
+  color: hsl(200, 8%, 15%);
   font-weight: 500;
 }
 .nav__logo:hover,
 .nav__toggle:hover {
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
 }
 
 .nav__toggle {
@@ -106,7 +106,7 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: hsl(200deg, 60%, 99%);
+    background-color: hsl(200, 60%, 99%);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -123,11 +123,11 @@ img {
   flex-direction: column;
   align-items: center;
   font-size: 0.813rem;
-  color: hsl(200deg, 8%, 15%);
+  color: hsl(200, 8%, 15%);
   font-weight: 500;
 }
 .nav__link:hover {
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
 }
 .nav__link i {
   font-size: 1.2rem;
@@ -139,7 +139,7 @@ img {
   bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
 }
 
 .show-menu {
@@ -161,17 +161,17 @@ img {
 }
 .home__container .home__content .home__social .home__social-icon {
   font-size: 1.25rem;
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
   transition: all 0.2s ease;
 }
 .home__container .home__content .home__social .home__social-icon:hover {
-  color: hsl(200deg, 57%, 53%);
+  color: hsl(200, 57%, 53%);
   transform: scale(1.2);
 }
 
 .home__blob {
   width: 200px;
-  fill: hsl(200deg, 69%, 61%);
+  fill: hsl(200, 69%, 61%);
 }
 .home__blob .home__blob-img {
   width: 220px;
@@ -185,7 +185,7 @@ img {
 }
 .home__data h3.home__subtitle {
   font-size: 1.125rem;
-  color: hsl(200deg, 8%, 45%);
+  color: hsl(200, 8%, 45%);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -194,7 +194,7 @@ img {
 }
 
 .home__scroll a {
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
   transition: 0.3s;
 }
 .home__scroll a:hover {
@@ -205,7 +205,7 @@ img {
 }
 .home__scroll a .home__scroll-name {
   font-size: 0.813rem;
-  color: hsl(200deg, 8%, 15%);
+  color: hsl(200, 8%, 15%);
   font-weight: 500;
   margin-right: 0.25rem;
 }
@@ -215,7 +215,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: hsl(200deg, 69%, 61%);
+  background-color: hsl(200, 69%, 61%);
   color: #fff;
   padding: 1rem;
   border-radius: 1rem;
@@ -223,7 +223,7 @@ img {
   transition: all 0.3s ease;
 }
 .button:hover {
-  background-color: hsl(200deg, 57%, 53%);
+  background-color: hsl(200, 57%, 53%);
   transform: scale(1.1);
 }
 
@@ -258,7 +258,7 @@ img {
 .about__info .about__info-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: hsl(200deg, 8%, 15%);
+  color: hsl(200, 8%, 15%);
 }
 
 .about__info-title,
@@ -284,7 +284,7 @@ img {
 }
 .skills__header i {
   font-size: 2rem;
-  color: hsl(200deg, 69%, 61%);
+  color: hsl(200, 69%, 61%);
 }
 .skills__header .skills__icon {
   margin-right: 0.75rem;
@@ -296,7 +296,7 @@ img {
 
 .skills__subtitle {
   font-size: 0.813rem;
-  color: hsl(200deg, 8%, 65%);
+  color: hsl(200, 8%, 65%);
 }
 
 .skills__arrow {
@@ -327,12 +327,12 @@ img {
 }
 
 .skills__bar {
-  background-color: hsl(200deg, 92%, 85%);
+  background-color: hsl(200, 92%, 85%);
 }
 
 .skills__percentage {
   display: block;
-  background-color: hsl(200deg, 69%, 61%);
+  background-color: hsl(200, 69%, 61%);
 }
 
 .skills__html {
@@ -354,13 +354,36 @@ img {
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
+  animation: skill_dropUp 0.5s ease forwards;
 }
 
 .skills__open .skills__list {
   height: -moz-max-content;
   height: max-content;
   margin-bottom: 2.5rem;
+  animation: skill_dropDown 0.5s ease forwards;
 }
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
+}
+
+@keyframes skill_dropDown {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+}
+@keyframes skill_dropUp {
+  from {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(0px);
+  }
 }/*# sourceMappingURL=style.css.map */

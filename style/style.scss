@@ -453,6 +453,7 @@ img {
   .skills__list {
     height: 0;
     overflow: hidden;
+    animation: skill_dropUp 0.5s ease forwards;
   }
 }
 
@@ -460,9 +461,34 @@ img {
   .skills__list {
     height: max-content;
     margin-bottom: $mb-2-5;
+    animation: skill_dropDown 0.5s ease forwards;
   }
 
   .skills__arrow {
     transform: rotate(-180deg);
+  }
+}
+
+@keyframes skill_dropDown {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+}
+
+@keyframes skill_dropUp {
+  from {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(0px);
   }
 }
